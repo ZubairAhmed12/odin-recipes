@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&family=Rubik+Distressed&display=swap');
+
+body{
+    background-color: #fff5d7;
+    
+}
+h1{
+    text-align: center;
+    font-size: 52px;
+    font-family: 'Rubik Distressed', cursive;
+    color: teal;
+}
+ul{
+    width: 50%;
+    margin: auto;
+    
+}
+li{
+    /* background-color: aqua; */
+    margin: 5px;
+    
+}
+
+
+
+
+
+/* CSS */
+a {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+a:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: teal;
+  text-decoration: none;
+}
+a:active {
+  transform: scale(0.95);
+}
